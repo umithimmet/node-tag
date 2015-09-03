@@ -1,0 +1,26 @@
+{
+  "name": "node-tag",
+  "version": "1.0.0",
+  "description": "Nodejs sensortag reader and sender from ipc.",
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/huseyinkozan/node-tag.git"
+  },
+  "keywords": [
+    "node",
+    "sensor",
+    "tag"
+  ],
+  "author": "Hüseyin Kozan <posta@huseyinkozan.com.tr>",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/huseyinkozan/node-tag#readme",
+  "dependencies": {
+    "async": "^1.4.2",
+    "node-ipc": "^2.0.0",
+    "sensortag": "^1.1.1"
+  }
+}
